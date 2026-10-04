@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  background-color: #1da1f2; /* Twitter Blue */
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Aapka Main White Box */
+.white-box {
+  background-color: white;
+  width: 100%;
+  max-width: 420px;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Logo aur Header center honge */
+}
+
+.logo {
+  width: 36px;
+  height: auto;
+  margin-bottom: 8px;
+  border-radius: 50%;
+}
+
+.white-box h2 {
+  margin: 0 0 16px 0;
+  font-size: 20px;
+  color: #333;
+}
+
+/* Tweet Input Area */
+.tweet-input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tweet-input textarea {
+  width: 100%;
+  height: 70px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  resize: none;
+  box-sizing: border-box;
+}
+
+.tweet-input button {
+  background-color: #1da1f2;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+/* Feed & Tweet Cards */
+.tweet-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tweet-card {
+  background-color: #f7f9fa;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #e1e8ed;
+}
+
+.tweet-card p {
+  margin: 0 0 10px 0;
+  color: #0f1419;
+  word-wrap: break-word;
+}
+
+.tweet-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tweet-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete-btn {
+  color: #e0245e;
+}
